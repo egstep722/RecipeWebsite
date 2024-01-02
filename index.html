@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <title class="veg">VegOut</title>
+        <link rel = "icon" href = "pics/sun.png" type = "image/x-icon">
+        <link rel = "icon" href = "pics/leafs.jpeg" type = "image/x-icon">
+        <script src="func.js" defer></script>
+    </head>
+    <body id="homepage">
+        <main>
+    <header class="veg">
+        <h1>Veg Out</h1> 
+        <img src="pics/sun.png" id="logo" alt="logo">
+    </header>
+    <nav> 
+        <a href="index.html" data-role="button" class="buttons" data-inline="true">Home</a>
+        <a href="lifestyle.html" data-role="button" class="buttons" data-inline="true">Lifestyle</a>
+        <a href="recipes.html" data-role="button" class="buttons" data-inline="true">Recipes</a>
+        <a href="restaurants.html" data-role="button" class="buttons" data-inline="true">Restaurants</a>
+        <hr>
+    </nav>
+        <br>
+        <br>
+        <h3 id="hphead"> Not just a recipe website for vegetarians but a community of people learning to live a life against the grain of carnviorism, <br> Welcome Home. <br> <br> <br> <a href="recipes.html" data-role="button" class="descrip" data-inline="true">Start Here</a> </h3>
+        <br> <br>
+        <p id="hp"> This website offers helpful information for those who are new to their walk in vegetarianism or allies to aid in informing the world about our lifestyle. Many people become vegetarian due to emotional, health, or even environmental factors. Together we can make a change. Let's destigmatize this diet. 
+            <br><br> Check Out Our Food Pics Below!
+        </p>
+        
+        <div class="pic-container">
+            <button class="pic-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+            <ul class="pic-nav">
+                <li class="pic-item active"> <img src="pics/churro.jpeg" alt="Entrance"> </li>
+                <li class="pic-item"> <img src="pics/soup.jpeg" alt="Library"> </li>
+                <li class="pic-item"> <img src="pics/ribs.jpeg" alt="Woodward"> </li>
+                <li class="pic-item"> <img src="pics/spaghetti.webp" alt="Woodward2"> </li>
+                <li class="pic-item"> <img src="pics/omlet.jpeg" alt="Duke"> </li>
+            </ul>
+            
+            <button class="pic-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="pic-nav">
+                <button class="nav-item active" id="0" onclick="navSwipe(this)"></button>
+                <button class="nav-item" id="1" onclick="navSwipe(this)"></button>
+                <button class="nav-item" id="2" onclick="navSwipe(this)"></button>
+                <button class="nav-item" id="3" onclick="navSwipe(this)"></button>
+                <button class="nav-item" id="4" onclick="navSwipe(this)"></button>
+                <br><br><br>
+            </div>
+        </div>
+    <footer> 
+    
+
+
+        <br>
+
+        <p> Author: Gracie Stephenson </p>
+        <p> 
+            <a href="index.html">Homepage</a> &nbsp; &nbsp;
+            <a href="lifestyle.html">Lifestyle</a> &nbsp; &nbsp;
+            <a href="recipes.html">Recipes</a> &nbsp; &nbsp;
+            <a href="restaurants.html">Restaurants</a>
+        </p>
+            Images: 
+            <ul>
+                <li> https://communitypraxis.com/ </li>
+            </ul>
+            Logo:
+            <ul>
+                <li> Created with Google Drawings </li>
+            </ul>
+    </footer>
+    </main>
+    </body>
+</html>
